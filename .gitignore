@@ -1,0 +1,29 @@
+# --- KiCad ---
+# Archivos de respaldo automáticos
+*.kicad_sch~
+*.kicad_pcb~
+*.kicad_pro~
+*.bak
+*-backups/
+
+# Cache de footprints (se regenera solo)
+fp-info-cache
+
+# Archivos de configuración local 
+*.kicad_prl
+
+# Archivos de Producción (No versionar, se regeneran al fabricar)
+*.pdf
+*.zip
+*.drl
+*.gbr
+*.gbrjob
+*.net
+*.rpt
+*.drc
+*.eps
+*.ps
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
