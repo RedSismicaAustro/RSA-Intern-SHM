@@ -1668,6 +1668,652 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N914"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N914"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N914_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N914_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Integrados:root_0_MAX485_Integrados.SchLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1888,311 +2534,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LibreriaRSA:root_0_BateriaDS1307_LibreriaRSA.IntLib"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Bateria-DS1307*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_0_BateriaDS1307_LibreriaRSA.IntLib_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 17 3 127 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 17 3 127 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 17 3 127 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 17 3 127 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 3.81)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LibreriaRSA:root_0_LD33V_LibreriaRSA.IntLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High-Performance 16-bit Digital Signal Controller, 24 KB Flash, 2 KB SRAM, 1 KB EEPROM, 40-Pin PDIP, Industrial Temperature"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOT-223*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_0_LD33V_LibreriaRSA.IntLib_1_0"
-				(rectangle
-					(start 12.7 -20.32)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 10.16 0 270)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -25.4 90)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4346,146 +4687,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Miscellaneous Devices:root_0_Diode 1N914_Miscellaneous Devices.IntLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High Conductance Fast Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*DO-35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_0_Diode 1N914_Miscellaneous Devices.IntLib_1_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 -2.54) (xy 0 0) (xy -5.08 0)
-					)
-					(stroke
-						(width -0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 5.08)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10446,6 +10647,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117S33TR_SOT223"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+				(at 2.54 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LD1117S33TR_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LD1117S33TR_SOT223_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "root_0_Header 2_Miscellaneous Connectors.IntLib_1"
 			(pin_numbers
 				(hide yes)
@@ -10553,135 +10907,6 @@
 				(pin passive line
 					(at -5.08 5.08 270)
 					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "root_1_Res1_Miscellaneous Devices.IntLib_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*AXIAL-0.3*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_1_Res1_Miscellaneous Devices.IntLib_1_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 -4.064) (xy -3.048 -3.81) (xy -2.032 -3.302) (xy -3.048 -2.794) (xy -2.032 -2.286)
-						(xy -3.048 -1.778) (xy -2.032 -1.27) (xy -2.54 -1.016) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -11704,6 +11929,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 80.264) (xy 360.68 80.264)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19482204-4245-4467-9033-b5491d4e8120")
+	)
+	(wire
+		(pts
 			(xy 35.56 53.1622) (xy 38.1 53.1622)
 		)
 		(stroke
@@ -11754,13 +11989,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 195.4022) (xy 68.58 195.4022)
+			(xy 72.39 196.85) (xy 72.39 195.4022)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d9ab50e-f66c-40b6-804e-3c78488dd18d")
+		(uuid "1f6d48cf-02fb-4cde-bbbd-b63a926a1448")
 	)
 	(wire
 		(pts
@@ -11974,13 +12209,23 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 37.9222) (xy 330.2 40.4622)
+			(xy 330.2 37.9222) (xy 330.2 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a056a93-2d3c-4a49-a578-194275a0d98e")
+	)
+	(wire
+		(pts
+			(xy 93.98 196.85) (xy 99.06 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d003011-cdb8-4996-9d9e-008052807f37")
 	)
 	(wire
 		(pts
@@ -12084,13 +12329,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 116.6622) (xy 53.34 116.6622)
+			(xy 358.14 81.1022) (xy 358.14 80.264)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fe8db5c-a86e-4495-97e4-960be5910230")
+		(uuid "5eff8d07-b4b0-46e7-88ac-7d5b24c9f15c")
 	)
 	(wire
 		(pts
@@ -12134,6 +12379,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 116.6622) (xy 55.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c3ec03-ab83-4ef4-88e1-8091f99c65f0")
+	)
+	(wire
+		(pts
 			(xy 292.1 93.8022) (xy 292.1 98.8822)
 		)
 		(stroke
@@ -12141,6 +12396,26 @@
 			(type default)
 		)
 		(uuid "628542e2-5a7f-4689-815a-840f2e51d6e6")
+	)
+	(wire
+		(pts
+			(xy 49.53 118.11) (xy 55.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636fbf10-ed37-4a4b-a5a1-b7cf6fcd3788")
+	)
+	(wire
+		(pts
+			(xy 360.68 80.264) (xy 360.68 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638a2de3-741f-4605-854c-833cd960f1d2")
 	)
 	(wire
 		(pts
@@ -12224,7 +12499,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 50.6222) (xy 330.2 53.1622)
+			(xy 330.2 49.53) (xy 330.2 53.1622)
 		)
 		(stroke
 			(width 0)
@@ -12274,16 +12549,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 81.1022) (xy 358.14 81.1022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e32fdf4-cb7b-425a-a493-4203429a8f71")
-	)
-	(wire
-		(pts
 			(xy 299.72 136.9822) (xy 302.26 136.9822)
 		)
 		(stroke
@@ -12291,6 +12556,26 @@
 			(type default)
 		)
 		(uuid "801bd31a-2021-4a8a-8edd-d598fb0f15d3")
+	)
+	(wire
+		(pts
+			(xy 72.39 195.4022) (xy 68.58 195.4022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f5af1b-453d-4832-9005-0779c66419c4")
+	)
+	(wire
+		(pts
+			(xy 72.39 196.85) (xy 78.74 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81267951-2c7d-4d28-a244-caf4a3d54c9c")
 	)
 	(wire
 		(pts
@@ -12504,6 +12789,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 116.6622) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1c8d98-9b45-4d15-b180-268ee6535937")
+	)
+	(wire
+		(pts
+			(xy 99.06 195.4022) (xy 99.06 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3405cc-6667-47e7-98d6-3a62cc4db0a7")
+	)
+	(wire
+		(pts
 			(xy 35.56 195.4022) (xy 33.02 195.4022)
 		)
 		(stroke
@@ -12561,16 +12866,6 @@
 			(type default)
 		)
 		(uuid "a448a392-1e9f-48d9-8c6f-0580d2df54f7")
-	)
-	(wire
-		(pts
-			(xy 373.38 92.5322) (xy 373.38 93.8022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d517ac-3f90-4b55-b290-7d886ea5eafd")
 	)
 	(wire
 		(pts
@@ -12694,16 +12989,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 208.1022) (xy 86.36 205.5622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d751de-0843-45c7-8a7f-58d7738f8937")
-	)
-	(wire
-		(pts
 			(xy 132.08 197.9422) (xy 132.08 200.4822)
 		)
 		(stroke
@@ -12741,6 +13026,16 @@
 			(type default)
 		)
 		(uuid "b52e98d4-02fb-4918-82fb-f48486d64f77")
+	)
+	(wire
+		(pts
+			(xy 389.636 92.964) (xy 389.636 94.234)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b820d097-95e9-4234-9276-c89507fc5e3c")
 	)
 	(wire
 		(pts
@@ -12874,6 +13169,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 204.47) (xy 86.36 208.1022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb34cbe-5643-4c77-8803-d7529c432b02")
+	)
+	(wire
+		(pts
 			(xy 132.08 101.4222) (xy 129.54 101.4222)
 		)
 		(stroke
@@ -12944,6 +13249,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.636 82.804) (xy 389.636 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db407c9b-647b-4547-8432-c6516125cf2f")
+	)
+	(wire
+		(pts
 			(xy 60.96 170.0022) (xy 60.96 180.1622)
 		)
 		(stroke
@@ -12994,16 +13309,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 116.6622) (xy 40.64 116.6622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d3f304-0025-4547-aa1f-db7321029bbf")
-	)
-	(wire
-		(pts
 			(xy 294.64 70.9422) (xy 297.18 70.9422)
 		)
 		(stroke
@@ -13041,6 +13346,16 @@
 			(type default)
 		)
 		(uuid "e392e16d-e606-4724-92c9-c4c523eab4ea")
+	)
+	(wire
+		(pts
+			(xy 41.91 118.11) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59496d7-dd6e-4a7d-9758-d3e0b120cc7f")
 	)
 	(wire
 		(pts
@@ -13330,7 +13645,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 93.8022 0)
 			(hide yes)
 			(show_name no)
@@ -15072,7 +15387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 264.16 136.9822 0)
 			(hide yes)
 			(show_name no)
@@ -15620,7 +15935,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 96.3422 0)
 			(hide yes)
 			(show_name no)
@@ -15736,7 +16051,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C3845218"
+		(property "LCSC" "C29266"
 			(at 149.86 96.3422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15794,7 +16109,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PULSA4"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 208.28 210.6422 0)
 			(hide yes)
 			(show_name no)
@@ -16673,8 +16988,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LibreriaRSA:root_0_LD33V_LibreriaRSA.IntLib")
-		(at 73.66 205.5622 90)
+		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
+		(at 86.36 196.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16684,7 +16999,7 @@
 		(dnp no)
 		(uuid "3a04f162-9d37-4828-8c55-627a2f5e3672")
 		(property "Reference" "U3"
-			(at 78.74 192.8622 90)
+			(at 99.06 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16695,7 +17010,7 @@
 			)
 		)
 		(property "Value" "LD33V"
-			(at 78.74 208.6102 90)
+			(at 91.44 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16705,8 +17020,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 73.66 205.5622 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 86.36 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16716,8 +17031,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 205.5622 0)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16727,8 +17042,8 @@
 				)
 			)
 		)
-		(property "Description" "High-Performance 16-bit Digital Signal Controller, 24 KB Flash, 2 KB SRAM, 1 KB EEPROM, 40-Pin PDIP, Industrial Temperature"
-			(at 73.66 205.5622 0)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(at 86.36 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16739,7 +17054,7 @@
 			)
 		)
 		(property "LCSC" "C35879"
-			(at 80.264 202.438 90)
+			(at 88.646 206.248 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16875,7 +17190,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 172.5422 0)
 			(hide yes)
 			(show_name no)
@@ -17349,7 +17664,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 345.44 43.0022 0)
 			(hide yes)
 			(show_name no)
@@ -17864,6 +18179,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 389.636 87.884 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49583869-8430-4c11-be5a-4cf313f2495b")
+		(property "Reference" "BT2"
+			(at 393.446 86.0424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 393.446 88.5824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_500"
+			(at 389.636 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.636 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 389.636 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 389.636 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 389.636 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 389.636 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30dd5d8d-9416-472b-9963-567990f678cf")
+		)
+		(pin "1"
+			(uuid "e26ef60e-34d5-4df6-bbee-baad44b803f6")
+		)
+		(instances
+			(project "PCB_Project"
+				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Miscellaneous Devices:root_2_Res1_Miscellaneous Devices.IntLib")
 		(at 63.5 119.2022 270)
 		(unit 1)
@@ -17897,7 +18327,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 63.5 119.2022 0)
 			(hide yes)
 			(show_name no)
@@ -18013,7 +18443,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C17900"
+		(property "LCSC" "C17936"
 			(at 61.722 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18147,7 +18577,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 172.5422 0)
 			(hide yes)
 			(show_name no)
@@ -18364,231 +18794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Miscellaneous Devices:root_0_Diode 1N914_Miscellaneous Devices.IntLib")
-		(at 45.72 114.1222 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e519917-7ed8-4fc9-b7b1-828a0192b49c")
-		(property "Reference" "D1"
-			(at 45.466 113.8682 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1N914"
-			(at 45.466 121.9962 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "DO-35"
-			(at 45.72 114.1222 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 114.1222 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High Conductance Fast Diode"
-			(at 45.72 114.1222 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DATASHEETVERSION" "1997"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "DO-35"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Diode, Axial; Body 3.8 x 1.9 mm (LxDia. max), Lead Dia. 0.53 mm (max)"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "CODE_JEDEC" "DO-204-AH"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Manufacturer Link"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://www.fairchildsemi.com/"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK2URL" "http://www.fairchildsemi.com/ds/1N%2F1N4448.pdf"
-			(at 45.72 114.1222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "f575abb5-c62a-4fc4-8e35-17f8c177deb4")
-		)
-		(pin "2"
-			(uuid "d5b6bf26-4706-47f5-99f6-55ace43bce20")
-		)
-		(instances
-			(project "PCB_Project"
-				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCB_Project-altium-import:SPI2_SCK_CIRCLE")
 		(at 132.08 60.7822 90)
 		(unit 1)
@@ -18698,7 +18903,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 195.58 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -18814,7 +19019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C17902"
+		(property "LCSC" "C1469"
 			(at 195.58 126.8222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18915,9 +19120,8 @@
 		)
 	)
 	(symbol
-		(lib_name "root_1_Res1_Miscellaneous Devices.IntLib_1")
-		(lib_id "Miscellaneous Devices:root_1_Res1_Miscellaneous Devices.IntLib")
-		(at 327.66 48.0822 180)
+		(lib_id "Device:R_US")
+		(at 330.2 45.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18927,7 +19131,7 @@
 		(dnp no)
 		(uuid "5204b695-333c-4c52-8d38-4b3f5f332fb4")
 		(property "Reference" "R15"
-			(at 330.962 45.2882 0)
+			(at 333.502 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18937,8 +19141,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
-			(at 330.962 47.8282 0)
+		(property "Value" "10k"
+			(at 333.502 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18948,8 +19152,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 327.66 48.0822 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 329.184 45.466 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18960,7 +19164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 48.0822 0)
+			(at 330.2 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18970,8 +19174,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 327.66 48.0822 0)
+		(property "Description" "Resistor, US symbol"
+			(at 330.2 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18982,7 +19186,7 @@
 			)
 		)
 		(property "PUBLISHED" "8-Jun-2000"
-			(at 329.438 39.9542 0)
+			(at 331.978 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18994,7 +19198,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 329.438 39.9542 0)
+			(at 331.978 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19006,7 +19210,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 329.438 39.9542 0)
+			(at 331.978 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19018,7 +19222,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 329.438 39.9542 0)
+			(at 331.978 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19030,7 +19234,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 329.438 39.9542 0)
+			(at 331.978 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19042,7 +19246,7 @@
 			)
 		)
 		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 329.438 39.9542 0)
+			(at 331.978 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19054,7 +19258,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 330.962 50.3682 0)
+			(at 333.502 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19064,8 +19268,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C17903"
-			(at 325.628 46.228 0)
+		(property "LCSC" "C1489"
+			(at 335.788 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19100,7 +19304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "523963c1-a698-4c72-8a47-d8eae0754631")
-		(property "Reference" "Ce"
+		(property "Reference" "C8"
 			(at 121.666 205.3082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19123,7 +19327,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 203.0222 0)
 			(hide yes)
 			(show_name no)
@@ -19258,7 +19462,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
-					(reference "Ce")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -19297,7 +19501,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "21-0042B_20"
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 297.18 70.9422 0)
 			(hide yes)
 			(show_name no)
@@ -19517,7 +19721,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 167.64 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -19633,7 +19837,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C17902"
+		(property "LCSC" "C1469"
 			(at 167.64 126.8222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20141,7 +20345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -20315,7 +20519,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MCHP-SPDIP-SP28"
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm_LongPads"
 			(at 43.18 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -20899,7 +21103,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DIP794W47P254L991H457Q8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 170.18 258.9022 0)
 			(hide yes)
 			(show_name no)
@@ -21009,7 +21213,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "HDR1X6"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 27.94 192.8622 0)
 			(hide yes)
 			(show_name no)
@@ -21139,7 +21343,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "MOLEX-2"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 66.04 236.0422 0)
 			(hide yes)
 			(show_name no)
@@ -21299,87 +21503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LibreriaRSA:root_0_BateriaDS1307_LibreriaRSA.IntLib")
-		(at 373.38 86.1822 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "67d2d431-a8d1-4eb0-a599-a2605a47df69")
-		(property "Reference" "BT1"
-			(at 376.174 87.1982 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Bateria"
-			(at 376.174 89.7382 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Bateria-DS1307"
-			(at 373.38 86.1822 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 86.1822 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 373.38 86.1822 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "5c404f61-3ee2-4701-b1cf-a03bfd52201d")
-		)
-		(pin "1"
-			(uuid "99ed0a9e-eaaa-4023-9fe4-542754885cd3")
-		)
-		(instances
-			(project "PCB_Project"
-				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCB_Project-altium-import:SPI1_DSPIC_SS_CIRCLE")
 		(at 233.68 76.0222 90)
 		(unit 1)
@@ -21487,7 +21610,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "GPS_BREAKOUT_V3"
+		(property "Footprint" ""
 			(at 307.34 195.4022 0)
 			(hide yes)
 			(show_name no)
@@ -21887,7 +22010,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SIP-2"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 170.18 55.7022 0)
 			(hide yes)
 			(show_name no)
@@ -22009,7 +22132,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Project-altium-import:GND_POWER_GROUND")
-		(at 373.38 93.8022 0)
+		(at 389.636 94.234 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22019,7 +22142,7 @@
 		(dnp no)
 		(uuid "6e6e9299-af6d-4f52-bd1e-e885205bf08a")
 		(property "Reference" "#PWR0141"
-			(at 373.38 93.8022 0)
+			(at 389.636 94.234 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22030,7 +22153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 373.38 100.1522 0)
+			(at 389.636 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22040,7 +22163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 93.8022 0)
+			(at 389.636 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22050,7 +22173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 93.8022 0)
+			(at 389.636 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22060,7 +22183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.38 93.8022 0)
+			(at 389.636 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22339,7 +22462,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "STEP_DOWN_CONVERTER"
+		(property "Footprint" ""
 			(at 78.74 170.0022 0)
 			(hide yes)
 			(show_name no)
@@ -22948,7 +23071,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "F__UDecimo_practicasLaborales2_proyectos_archivosAltium_completos_int3_R-007 ACELEROGRAFO ADXL355 CONCENTRADOR V1_PCB_Project_PcbLib1.PcbLib:Led_Green"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 195.58 139.5222 0)
 			(hide yes)
 			(show_name no)
@@ -23127,7 +23250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C100UFB"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 124.46 172.5422 0)
 			(hide yes)
 			(show_name no)
@@ -23677,7 +23800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C100UFB"
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 30.48 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -23793,7 +23916,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C970706"
+		(property "LCSC" "C2858857"
 			(at 30.48 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24001,7 +24124,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "F__UDecimo_practicasLaborales2_proyectos_archivosAltium_completos_int3_R-007 ACELEROGRAFO ADXL355 CONCENTRADOR V1_PCB_Project_PcbLib1.PcbLib:Led_Green"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 147.32 139.5222 0)
 			(hide yes)
 			(show_name no)
@@ -24168,7 +24291,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "3K3"
 			(at 363.982 134.1882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24179,7 +24302,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 360.68 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -24295,7 +24418,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" "C26032"
 			(at 367.538 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24577,7 +24700,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "*AMPHENOL_54602-908LF"
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 320.04 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -24910,7 +25033,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 231.14 210.6422 0)
 			(hide yes)
 			(show_name no)
@@ -25026,7 +25149,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C17903"
+		(property "LCSC" "C1489"
 			(at 234.696 219.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25234,7 +25357,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 213.36 261.4422 0)
 			(hide yes)
 			(show_name no)
@@ -25350,7 +25473,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" "C26032"
 			(at 220.218 257.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25594,6 +25717,81 @@
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB_Project-altium-import:GND_CIRCLE")
+		(at 360.68 81.026 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a927c861-5248-4d36-9cec-e2b77f349750")
+		(property "Reference" "#PWR0142"
+			(at 360.68 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetBT1_0"
+			(at 364.49 81.026 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "36729293-1a67-4d89-b5a3-d7d1c0c6f6b8")
+		)
+		(instances
+			(project "PCB_Project"
+				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -26230,7 +26428,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Header 1X2"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 66.04 256.3622 0)
 			(hide yes)
 			(show_name no)
@@ -26721,7 +26919,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 203.2 261.4422 0)
 			(hide yes)
 			(show_name no)
@@ -26837,7 +27035,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" "C26032"
 			(at 210.058 257.048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26971,7 +27169,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -27296,7 +27494,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 233.68 139.5222 0)
 			(hide yes)
 			(show_name no)
@@ -27412,7 +27610,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C17935"
+		(property "LCSC" "C17900"
 			(at 233.68 139.5222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27471,7 +27669,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 147.32 126.8222 0)
 			(hide yes)
 			(show_name no)
@@ -27587,7 +27785,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C17902"
+		(property "LCSC" "C1469"
 			(at 147.32 126.8222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27682,6 +27880,81 @@
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB_Project-altium-import:GND_CIRCLE")
+		(at 389.636 81.026 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d28343ec-b3f9-4915-baa1-95b66993de9a")
+		(property "Reference" "#PWR0143"
+			(at 389.636 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetBT1_0"
+			(at 385.826 81.026 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.636 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.636 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 389.636 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f1d21fa3-25c3-401a-a9b0-e81f93f03e22")
+		)
+		(instances
+			(project "PCB_Project"
+				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -28020,7 +28293,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 350.52 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -28136,7 +28409,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" "C26032"
 			(at 357.632 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28194,7 +28467,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "DIP794W47P254L991H457Q8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 317.5 131.9022 0)
 			(hide yes)
 			(show_name no)
@@ -28564,6 +28837,108 @@
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 45.72 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da687027-fa70-430c-b8fc-441c813ba1f0")
+		(property "Reference" "D1"
+			(at 45.72 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N914"
+			(at 45.72 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 45.72 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d134304-7d12-468c-a21d-173660f58317")
+		)
+		(pin "1"
+			(uuid "d5cc8a75-efab-47be-ac57-c71005149b7b")
+		)
+		(instances
+			(project "PCB_Project"
+				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -29103,7 +29478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3849c10-a042-493f-be84-556a52756aa1")
-		(property "Reference" "Ce"
+		(property "Reference" "C9"
 			(at 134.366 205.3082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29126,7 +29501,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 203.0222 0)
 			(hide yes)
 			(show_name no)
@@ -29261,7 +29636,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
-					(reference "Ce")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -29599,7 +29974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "F__UDecimo_practicasLaborales2_proyectos_archivosAltium_completos_int3_R-007 ACELEROGRAFO ADXL355 CONCENTRADOR V1_PCB_Project_PcbLib1.PcbLib:Led_Green"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 167.64 139.5222 0)
 			(hide yes)
 			(show_name no)
@@ -30148,7 +30523,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "C__Users_Public_Documents_Altium_AD16_Library_Miscellaneous Connectors_Miscellaneous Connectors_3D.PcbLib:HDR2X20"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 			(at 215.9 45.5422 0)
 			(hide yes)
 			(show_name no)
@@ -30829,7 +31204,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RAD0.2"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 43.18 172.5422 0)
 			(hide yes)
 			(show_name no)
