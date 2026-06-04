@@ -1,4 +1,4 @@
-(module "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD" (layer F.Cu) (tedit 6A1E4D8C)
+(module "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD" (layer F.Cu) (tedit 6A208AE5)
   (descr "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD footprint")
   (tags "CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD footprint C970695")
   (attr smd)

@@ -1,4 +1,4 @@
-(module "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL" (layer F.Cu) (tedit 6A1E4DDC)
+(module "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL" (layer F.Cu) (tedit 6A208B21)
   (descr "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL footprint")
   (tags "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL footprint C481667")
   (attr smd)

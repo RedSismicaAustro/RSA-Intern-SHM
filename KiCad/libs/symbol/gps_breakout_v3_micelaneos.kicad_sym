@@ -76,6 +76,19 @@
 		)
 		(symbol "root_0_GPS_BREAKOUT_V3_Micelaneos.SchLib_1_0"
 			(rectangle
+				(start -5.08 0)
+				(end 25.4 -45.72)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 41 168 137 1)
+				)
+			)
+			(rectangle
 				(start 17.78 -31.75)
 				(end 2.54 -16.51)
 				(stroke
@@ -98,19 +111,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(rectangle
-				(start 25.4 -45.72)
-				(end -5.08 0)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type color)
-					(color 41 168 137 1)
 				)
 			)
 			(pin output line

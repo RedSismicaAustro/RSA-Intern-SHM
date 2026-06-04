@@ -13761,8 +13761,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 267.97 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 264.16 93.8022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15503,8 +15514,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 264.16 136.9822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 264.16 136.9822 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16061,6 +16083,17 @@
 				)
 			)
 		)
+		(property "PACKAGE" "0402"
+			(at 149.86 96.3422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed203ba1-81dd-4168-8e7a-9280b7ec16f1")
 		)
@@ -16214,8 +16247,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C231329"
+		(property "LCSC" "C720477"
 			(at 211.836 209.042 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "SMD,4x3mm"
+			(at 208.28 210.6422 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17063,6 +17107,17 @@
 				)
 			)
 		)
+		(property "PACKAGE" "SOT-223-4SOT-223-4"
+			(at 86.36 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3882c0c8-40a2-4499-951d-332c7c826cbe")
 		)
@@ -17178,7 +17233,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 132.334 169.4942 0)
 			(hide yes)
 			(show_name no)
@@ -17306,8 +17361,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 137.16 172.5422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 137.16 172.5422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17780,8 +17846,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 345.44 43.0022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 345.44 43.0022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18453,6 +18530,17 @@
 				)
 			)
 		)
+		(property "PACKAGE" "1206"
+			(at 63.5 119.2022 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7973711-5f58-4fa4-9d42-700247c96737")
 		)
@@ -18565,7 +18653,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "10nF"
 			(at 145.034 169.4942 0)
 			(hide yes)
 			(show_name no)
@@ -18693,8 +18781,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C53084506"
+		(property "LCSC" "C15195"
 			(at 149.86 172.5422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 149.86 172.5422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19019,8 +19118,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C1469"
+		(property "LCSC" "C4410"
 			(at 195.58 126.8222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "1206"
+			(at 195.58 126.8222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19268,8 +19378,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C1489"
+		(property "LCSC" "C17902"
 			(at 335.788 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "1206"
+			(at 330.2 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19315,7 +19436,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 117.094 199.9742 0)
 			(hide yes)
 			(show_name no)
@@ -19443,8 +19564,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 114.808 202.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 121.92 203.0222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19616,6 +19748,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right bottom)
+			)
+		)
+		(property "LCSC" "C2651511"
+			(at 297.18 70.9422 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "SO-20-300mil"
+			(at 297.18 70.9422 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19837,8 +19991,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C1469"
+		(property "LCSC" "C4410"
 			(at 167.64 126.8222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "1206"
+			(at 167.64 126.8222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20333,7 +20498,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 101.854 123.7742 0)
 			(hide yes)
 			(show_name no)
@@ -20461,8 +20626,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 106.68 126.8222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 106.68 126.8222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21138,6 +21314,17 @@
 		)
 		(property "LCSC" "C481667"
 			(at 170.18 270.002 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "SOP-8"
+			(at 170.18 258.9022 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23060,7 +23247,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3"
+		(property "Value" "LED_white"
 			(at 198.628 144.3482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23200,6 +23387,27 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C2290"
+			(at 201.422 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0603"
+			(at 195.58 139.5222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4a78a7d-1905-446d-9117-8c8c84164ad5")
 		)
@@ -23238,7 +23446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "220uF"
 			(at 119.634 169.4942 0)
 			(hide yes)
 			(show_name no)
@@ -23368,6 +23576,17 @@
 		)
 		(property "LCSC" "C970695"
 			(at 124.46 172.5422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "SMD,D6.3xL7.7mm"
+			(at 124.46 172.5422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23788,7 +24007,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "470uF"
 			(at 25.654 169.672 0)
 			(hide yes)
 			(show_name no)
@@ -23918,6 +24137,17 @@
 		)
 		(property "LCSC" "C2858857"
 			(at 30.48 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "SMD,D8xL10.2mm"
+			(at 30.48 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24113,7 +24343,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3"
+		(property "Value" "LED_white"
 			(at 150.368 144.3482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24253,6 +24483,27 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C2290"
+			(at 153.416 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0603"
+			(at 147.32 139.5222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d4df2d7-6ed2-4f25-a23e-a4d882f2c803")
 		)
@@ -24302,7 +24553,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 360.68 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -24418,8 +24669,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C26032"
+		(property "LCSC" "C26010"
 			(at 367.538 130.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0805"
+			(at 360.68 134.4422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25149,8 +25411,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C1489"
+		(property "LCSC" "C17902"
 			(at 234.696 219.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "1206"
+			(at 231.14 210.6422 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25357,7 +25630,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.36 261.4422 0)
 			(hide yes)
 			(show_name no)
@@ -25473,8 +25746,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C26032"
+		(property "LCSC" "C26010"
 			(at 220.218 257.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0805"
+			(at 213.36 261.4422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26919,7 +27203,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 203.2 261.4422 0)
 			(hide yes)
 			(show_name no)
@@ -27035,8 +27319,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C26032"
+		(property "LCSC" "C26010"
 			(at 210.058 257.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0805"
+			(at 203.2 261.4422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27157,7 +27452,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 117.094 123.7742 0)
 			(hide yes)
 			(show_name no)
@@ -27285,8 +27580,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 121.92 126.8222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 121.92 126.8222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27620,6 +27926,17 @@
 				)
 			)
 		)
+		(property "PACKAGE" "1206"
+			(at 233.68 139.5222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1c07737-7661-4e41-800f-1f6d388b10e3")
 		)
@@ -27785,8 +28102,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C1469"
+		(property "LCSC" "C4410"
 			(at 147.32 126.8222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "1206"
+			(at 147.32 126.8222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28293,7 +28621,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 350.52 134.4422 0)
 			(hide yes)
 			(show_name no)
@@ -28409,8 +28737,19 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C26032"
+		(property "LCSC" "C26010"
 			(at 357.632 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0805"
+			(at 350.52 134.4422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28502,6 +28841,17 @@
 		)
 		(property "LCSC" "C481667"
 			(at 317.5 143.002 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "SOP-8"
+			(at 317.5 131.9022 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29489,7 +29839,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "10nF"
 			(at 129.794 199.9742 0)
 			(hide yes)
 			(show_name no)
@@ -29617,8 +29967,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C53084506"
+		(property "LCSC" "C15195"
 			(at 138.43 202.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 134.62 203.0222 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29963,7 +30324,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED3"
+		(property "Value" "LED_white"
 			(at 170.688 144.3482 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30101,6 +30462,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 173.482 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0603"
+			(at 167.64 139.5222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -31192,7 +31574,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 38.354 169.4942 0)
 			(hide yes)
 			(show_name no)
@@ -31320,8 +31702,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C141382"
+		(property "LCSC" "C1525"
 			(at 43.18 172.5422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 43.18 172.5422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1,4 +1,4 @@
-(module "C0402" (layer F.Cu) (tedit 6A1E4D95)
+(module "C0402" (layer F.Cu) (tedit 6A208B02)
   (descr "C0402 footprint")
   (tags "C0402 footprint C29266")
   (attr smd)

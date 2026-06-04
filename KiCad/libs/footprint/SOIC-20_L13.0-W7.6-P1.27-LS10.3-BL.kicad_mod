@@ -1,6 +1,6 @@
-(module "SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL" (layer F.Cu) (tedit 6A1E4DE0)
+(module "SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL" (layer F.Cu) (tedit 6A208B2F)
   (descr "SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint")
-  (tags "SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C1520453")
+  (tags "SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C2651511")
   (attr smd)
   (fp_text reference REF** (at 0 -6.729997) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
