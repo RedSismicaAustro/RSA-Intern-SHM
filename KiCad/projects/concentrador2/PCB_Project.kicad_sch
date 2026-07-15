@@ -2127,7 +2127,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N914"
+		(symbol "Diode:1N4148WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2149,7 +2149,7 @@
 					)
 				)
 			)
-			(property "Value" "1N914"
+			(property "Value" "1N4148WS"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2170,7 +2170,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2181,7 +2181,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2225,7 +2225,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2236,7 +2236,7 @@
 					)
 				)
 			)
-			(symbol "1N914_0_1"
+			(symbol "1N4148WS_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -2274,7 +2274,7 @@
 					)
 				)
 			)
-			(symbol "1N914_1_1"
+			(symbol "1N4148WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -12099,6 +12099,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 116.6622) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30effe6e-f3d0-4166-8e7d-a0561bb45092")
+	)
+	(wire
+		(pts
 			(xy 317.5 214.63) (xy 312.42 214.63)
 		)
 		(stroke
@@ -12216,6 +12226,16 @@
 			(type default)
 		)
 		(uuid "4a056a93-2d3c-4a49-a578-194275a0d98e")
+	)
+	(wire
+		(pts
+			(xy 49.784 118.11) (xy 55.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afd706c-9362-433a-9a78-a6fa444771f7")
 	)
 	(wire
 		(pts
@@ -12396,16 +12416,6 @@
 			(type default)
 		)
 		(uuid "628542e2-5a7f-4689-815a-840f2e51d6e6")
-	)
-	(wire
-		(pts
-			(xy 49.53 118.11) (xy 55.88 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636fbf10-ed37-4a4b-a5a1-b7cf6fcd3788")
 	)
 	(wire
 		(pts
@@ -12789,16 +12799,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 116.6622) (xy 35.56 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e1c8d98-9b45-4d15-b180-268ee6535937")
-	)
-	(wire
-		(pts
 			(xy 99.06 195.4022) (xy 99.06 196.85)
 		)
 		(stroke
@@ -13129,6 +13129,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 118.11) (xy 42.164 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c842ed4e-4198-4cee-9450-5e6abe1d4134")
+	)
+	(wire
+		(pts
 			(xy 132.08 83.6422) (xy 129.54 83.6422)
 		)
 		(stroke
@@ -13346,16 +13356,6 @@
 			(type default)
 		)
 		(uuid "e392e16d-e606-4724-92c9-c4c523eab4ea")
-	)
-	(wire
-		(pts
-			(xy 41.91 118.11) (xy 35.56 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59496d7-dd6e-4a7d-9758-d3e0b120cc7f")
 	)
 	(wire
 		(pts
@@ -15694,6 +15694,117 @@
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 45.974 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "225d79e9-c0eb-482e-b004-94cd3e53d59d")
+		(property "Reference" "D3"
+			(at 45.974 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 45.974 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 45.974 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 45.974 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 45.974 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 45.974 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 45.974 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 45.974 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "388f4731-ebc7-4fb2-bcbf-c14ec10071a2")
+		)
+		(pin "2"
+			(uuid "b490411a-ebb5-4abe-a034-ec2a36d2fb0b")
+		)
+		(instances
+			(project "PCB_Project"
+				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -18261,11 +18372,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49583869-8430-4c11-be5a-4cf313f2495b")
 		(property "Reference" "BT2"
 			(at 393.446 86.0424 0)
@@ -18289,7 +18399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_500"
+		(property "Footprint" "CR1220:CR1220-2"
 			(at 389.636 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -18347,6 +18457,16 @@
 		(property "Sim.Pins" "1=+ 2=-"
 			(at 389.636 87.884 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C70381"
+			(at 397.002 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29187,108 +29307,6 @@
 			(project "PCB_Project"
 				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N914")
-		(at 45.72 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da687027-fa70-430c-b8fc-441c813ba1f0")
-		(property "Reference" "D1"
-			(at 45.72 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N914"
-			(at 45.72 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 45.72 113.665 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 45.72 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 45.72 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 45.72 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5d134304-7d12-468c-a21d-173660f58317")
-		)
-		(pin "1"
-			(uuid "d5cc8a75-efab-47be-ac57-c71005149b7b")
-		)
-		(instances
-			(project "PCB_Project"
-				(path "/0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
-					(reference "D1")
 					(unit 1)
 				)
 			)
