@@ -11035,7 +11035,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "470uF"
 			(at 43.434 161.8742 0)
 			(hide yes)
 			(show_name no)
@@ -11078,89 +11078,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 43.434 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 43.434 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 43.434 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 43.434 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 43.434 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 43.434 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "470uF"
-			(at 48.006 169.7482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C2858857"
@@ -11866,9 +11783,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2807be19-9dfc-40e9-a066-081602a31e59")
 		(property "Reference" "J2"
@@ -11926,79 +11843,7 @@
 				)
 			)
 		)
-		(property "DIGI-KEY_PART_NUMBER" "609-1046-ND"
-			(at 78.74 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MP" "54602-908LF"
-			(at 78.74 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/54602-908LF/Amphenol%20FCI/view-part/1356963/?ref=snap"
-			(at 78.74 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
 		(property "PACKAGE" "None"
-			(at 78.74 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DIGI-KEY_PURCHASE_URL" "https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"
-			(at 78.74 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MF" "Amphenol ICC"
-			(at 78.74 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
 			(at 78.74 258.9022 90)
 			(hide yes)
 			(show_name no)
@@ -13353,7 +13198,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "3K3"
 			(at 356.362 103.7082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13395,89 +13240,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 354.838 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 354.838 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 354.838 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 354.838 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 354.838 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 354.838 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "3K3"
-			(at 356.362 106.2482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "LCSC" "C26010"
@@ -14200,7 +13962,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}${VALUEAUX}"
+		(property "Value" ""
 			(at 355.6 182.7022 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14680,7 +14442,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "1K"
 			(at 169.418 83.1342 0)
 			(hide yes)
 			(show_name no)
@@ -14723,89 +14485,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 169.418 83.1342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 169.418 83.1342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 169.418 83.1342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 169.418 83.1342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 169.418 83.1342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 169.418 83.1342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1K"
-			(at 170.942 91.0082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C4410"
@@ -15397,7 +15076,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "220uF"
 			(at 137.414 161.8742 0)
 			(hide yes)
 			(show_name no)
@@ -15440,89 +15119,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 137.414 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 137.414 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 137.414 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 137.414 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 137.414 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 137.414 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "220uF"
-			(at 141.986 169.7482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C970695"
@@ -15647,7 +15243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 119.634 121.2342 0)
 			(hide yes)
 			(show_name no)
@@ -15690,89 +15286,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 119.634 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 119.634 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 119.634 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 119.634 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 119.634 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 119.634 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 124.206 129.1082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -16179,9 +15692,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8a819c5f-3f92-4a40-9c29-b47cefdf0d69")
 		(property "Reference" "U1"
@@ -16239,271 +15752,7 @@
 				)
 			)
 		)
-		(property "DATASHEETVERSION" "Rev. F"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEVERSION" "C04-070B"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "SPDIP-SP28"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "28-Lead Plastic Dual In-Line, 34.86 x 6.79 mm Body, 2.54 mm Pitch"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "DSPIC33EP256MC202-I/SP-ND"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 2" "Farnell"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "2212194"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 3" "Newark"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" "66T8001"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER 4" "Mouser"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 4" "579-PC33256MC202ISP"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
 		(property "MANUFACTURER" "Microchip"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MOUNTING TECHNOLOGY" "Through Hole"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PARTNUMBER" "DSPIC33EP256MC202-I/SP"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Manufacturer URL"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://www.microchip.com"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK2DESCRIPTION" "Datasheet"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK2URL" "http://ww1.microchip.com/downloads/en/DeviceDoc/70657F.pdf"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK3DESCRIPTION" "Package Specification"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK3URL" "http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK4DESCRIPTION" "Product URL"
-			(at 45.72 43.0022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COMPONENTLINK4URL" "http://www.microchip.com/dsPIC33EP256MC202"
 			(at 45.72 43.0022 90)
 			(hide yes)
 			(show_name no)
@@ -16840,9 +16089,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "90d8c71a-dfe9-4391-9bd6-75a019797b49")
 		(property "Reference" "P1"
@@ -16898,42 +16147,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 43.18 197.9422 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 43.18 197.9422 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 43.18 197.9422 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(pin "3"
@@ -17178,102 +16391,6 @@
 				)
 			)
 		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Dec-2003"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "PCB Footprint replaced."
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DATASHEETVERSION" "16-Apr-2002"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEVERSION" "16-Apr-2002"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "3.5X2.8X1.9"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "SM LED; 2 C-Bend Leads; Body 3.5 x 2.8 x 1.9 mm, inc leads (LxWxH typ)"
-			(at 167.386 93.2942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "LCSC" "C2290"
 			(at 177.546 98.552 0)
 			(show_name no)
@@ -17321,7 +16438,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "1uF"
 			(at 147.574 90.7542 0)
 			(hide yes)
 			(show_name no)
@@ -17364,89 +16481,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 147.574 90.7542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 147.574 90.7542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 147.574 90.7542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 147.574 90.7542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 147.574 90.7542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 147.574 90.7542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1uF"
-			(at 152.146 98.6282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C29266"
@@ -17645,7 +16679,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 150.114 161.8742 0)
 			(hide yes)
 			(show_name no)
@@ -17688,89 +16722,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 150.114 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 150.114 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 150.114 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 150.114 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 150.114 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 150.114 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 154.686 169.7482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -17820,7 +16771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 261.874 50.1142 0)
 			(hide yes)
 			(show_name no)
@@ -17863,89 +16814,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 261.874 50.1142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 261.874 50.1142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 261.874 50.1142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 261.874 50.1142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 261.874 50.1142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 261.874 50.1142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 266.446 57.9882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -18294,7 +17162,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "3K3"
 			(at 254.762 256.1082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18336,89 +17204,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 253.238 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 253.238 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 253.238 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 253.238 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 253.238 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 253.238 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "3K3"
-			(at 254.762 258.6482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "LCSC" "C26010"
@@ -18526,9 +17311,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "ab93f9b6-cf51-40ba-9969-c0769f5b30ef")
 		(property "Reference" "U4"
@@ -18637,9 +17422,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "ac2f8602-a9aa-4bfe-b9d7-6f3b64d63d79")
 		(property "Reference" "J3"
@@ -18697,79 +17482,7 @@
 				)
 			)
 		)
-		(property "DIGI-KEY_PART_NUMBER" "609-1046-ND"
-			(at 121.92 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MP" "54602-908LF"
-			(at 121.92 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/54602-908LF/Amphenol%20FCI/view-part/1356963/?ref=snap"
-			(at 121.92 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
 		(property "PACKAGE" "None"
-			(at 121.92 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DIGI-KEY_PURCHASE_URL" "https://www.digikey.com/product-detail/en/amphenol-icc-fci/54602-908LF/609-1046-ND/1001360?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"
-			(at 121.92 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MF" "Amphenol ICC"
-			(at 121.92 258.9022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "*"
 			(at 121.92 258.9022 90)
 			(hide yes)
 			(show_name no)
@@ -18836,7 +17549,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 139.954 205.0542 0)
 			(hide yes)
 			(show_name no)
@@ -18879,89 +17592,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 139.954 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 139.954 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 139.954 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 139.954 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 139.954 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 139.954 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 144.526 212.9282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -19679,7 +18309,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 104.394 121.2342 0)
 			(hide yes)
 			(show_name no)
@@ -19722,89 +18352,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 104.394 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 104.394 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 104.394 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 104.394 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 104.394 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 104.394 121.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 108.966 129.1082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -20113,7 +18660,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "3K3"
 			(at 264.922 256.1082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20155,89 +18702,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 263.398 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 263.398 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 263.398 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 263.398 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 263.398 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 263.398 248.2342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "3K3"
-			(at 264.922 258.6482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "LCSC" "C26010"
@@ -20512,7 +18976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 343.154 238.0742 0)
 			(hide yes)
 			(show_name no)
@@ -20555,89 +19019,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 343.154 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 343.154 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 343.154 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 343.154 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 343.154 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 343.154 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 347.726 245.9482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -20687,7 +19068,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "4K7"
 			(at 65.532 126.0602 90)
 			(hide yes)
 			(show_name no)
@@ -20730,89 +19111,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 65.532 126.0602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 65.532 126.0602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 65.532 126.0602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 65.532 126.0602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 65.532 126.0602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 65.532 126.0602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "4K7"
-			(at 68.326 130.1242 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C17936"
@@ -21310,7 +19608,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "10K"
 			(at 36.322 65.6082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21352,89 +19650,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 34.798 57.7342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 34.798 57.7342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 34.798 57.7342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 34.798 57.7342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 34.798 57.7342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 34.798 57.7342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "10K"
-			(at 36.322 68.1482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "LCSC" "C17902"
@@ -21783,7 +19998,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "Res1"
+		(property "Value" "3K3"
 			(at 366.522 103.7082 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21825,89 +20040,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 364.998 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 364.998 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 364.998 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "AXIAL-0.3"
-			(at 364.998 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 364.998 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 364.998 95.8342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "3K3"
-			(at 366.522 106.2482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "LCSC" "C26010"
@@ -22032,7 +20164,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 327.914 238.0742 0)
 			(hide yes)
 			(show_name no)
@@ -22075,89 +20207,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 327.914 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 327.914 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 327.914 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 327.914 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 327.914 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 327.914 238.0742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 332.486 245.9482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -22281,7 +20330,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "10nF"
 			(at 162.814 161.8742 0)
 			(hide yes)
 			(show_name no)
@@ -22324,89 +20373,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 162.814 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 162.814 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 162.814 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 162.814 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 162.814 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 162.814 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "10nF"
-			(at 167.386 169.7482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C15195"
@@ -22827,7 +20793,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "100nF"
 			(at 56.134 161.8742 0)
 			(hide yes)
 			(show_name no)
@@ -22870,89 +20836,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 56.134 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 56.134 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 56.134 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 56.134 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 56.134 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 56.134 161.8742 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 60.706 169.7482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C1525"
@@ -23119,42 +21002,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "TYPE" "TYPE"
-			(at 99.06 162.3822 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "REFDES" "RefDes"
-			(at 99.06 159.8422 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MFR_NAME" "Texas Instruments"
-			(at 99.06 162.3822 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(property "LCSC" "C354068"
@@ -23431,7 +21278,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Cap"
+		(property "Value" "10nF"
 			(at 152.654 205.0542 0)
 			(hide yes)
 			(show_name no)
@@ -23474,89 +21321,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 152.654 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 152.654 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 152.654 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RAD-0.3"
-			(at 152.654 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 152.654 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
-			(at 152.654 205.0542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "10nF"
-			(at 157.226 212.9282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "LCSC" "C15195"
