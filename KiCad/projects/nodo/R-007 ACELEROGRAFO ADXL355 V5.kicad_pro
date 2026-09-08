@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,11 +58,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.25,
-          "via_gap": 0.0,
-          "width": 0.25
         }
       ],
       "drc_exclusions": [],
@@ -135,7 +130,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.3,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -148,7 +143,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.25,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
@@ -200,7 +195,7 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,10 +227,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -495,7 +486,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB_Project.kicad_pro",
+    "filename": "R-007 ACELEROGRAFO ADXL355 V5.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -516,7 +507,7 @@
         "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.6,
-        "via_drill": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -559,7 +550,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -571,31 +562,31 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -607,12 +598,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
@@ -620,33 +605,9 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "PACKAGE",
           "name": "PACKAGE",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -658,14 +619,32 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Reference"
     },
     "bus_aliases": {},
@@ -704,9 +683,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB_Project.kicad_sch",
-        "name": "Sheet1",
-        "uuid": "0dc9dba4-ff0b-442b-8d95-98389b6a93ed"
+        "filename": "R-007 ACELEROGRAFO ADXL355 V5.kicad_sch",
+        "name": "Esquema",
+        "uuid": "7bf055b3-d016-40a2-b1c7-f87c69b86365"
       }
     ],
     "used_designators": "",
@@ -714,8 +693,8 @@
   },
   "sheets": [
     [
-      "0dc9dba4-ff0b-442b-8d95-98389b6a93ed",
-      "Sheet1"
+      "7bf055b3-d016-40a2-b1c7-f87c69b86365",
+      "Esquema"
     ]
   ],
   "text_variables": {},

@@ -24,6 +24,8 @@ fp-info-cache
 *.eps
 *.ps
 
-# --- Sistema operativo ---
+# --- Sistema operativo y editores ---
 .DS_Store
 Thumbs.db
+**/.history/
+**/_autosave-*/
